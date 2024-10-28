@@ -3,7 +3,7 @@ add_executable(threads
     threads.c
     )
 
-pico_set_program_name(threads "test")
+pico_set_program_name(threads "thread")
 pico_set_program_version(threads "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB.
