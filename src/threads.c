@@ -23,7 +23,7 @@ void side_thread(void *params)
         vTaskDelay(100);
         do_loop(semaphore, &counter, "side", 500);
 	}
-}
+}       
 
 void main_thread(void *params)
 {
